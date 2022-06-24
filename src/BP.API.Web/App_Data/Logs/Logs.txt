@@ -1,0 +1,830 @@
+DEBUG 2022-06-22 23:23:27,426 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-22 23:23:28,420 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-22 23:23:31,332 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:31,350 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-22 23:23:37,199 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-22 23:23:38,314 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-22 23:23:40,218 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-22 23:23:40,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-22 23:23:40,258 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-22 23:23:45,537 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-22 23:23:46,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-22 23:23:46,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-22 23:23:46,274 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-22 23:23:46,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-22 23:23:46,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-22 23:23:46,275 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-22 23:23:46,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-22 23:23:46,276 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-22 23:23:46,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-22 23:23:46,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-22 23:23:46,277 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-22 23:23:48,733 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-22 23:23:55,577 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-22 23:24:01,221 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2022-06-22 23:24:01,255 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-06-22 23:24:02,252 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1010.0887ms 200 
+INFO  2022-06-22 23:24:04,113 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-22 23:24:05,647 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-22 23:24:23,570 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-22 23:24:23,630 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 17976.1273ms
+INFO  2022-06-22 23:24:23,631 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-22 23:24:23,857 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 22601.701ms 302 
+INFO  2022-06-22 23:24:25,031 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger  
+INFO  2022-06-22 23:24:25,284 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 253.1325ms 301 
+INFO  2022-06-22 23:24:25,462 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/index.html  
+INFO  2022-06-22 23:24:29,052 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3590.3307ms 200 text/html;charset=utf-8
+INFO  2022-06-22 23:24:29,391 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui.css  
+INFO  2022-06-22 23:24:30,592 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_vs/browserLink  
+INFO  2022-06-22 23:24:30,593 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui-bundle.js  
+INFO  2022-06-22 23:24:30,598 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-06-22 23:24:30,599 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-06-22 23:24:31,229 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 630.5701ms 200 application/javascript; charset=utf-8
+INFO  2022-06-22 23:24:32,865 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-06-22 23:24:32,866 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2266.9419ms 200 application/javascript
+INFO  2022-06-22 23:24:36,206 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-06-22 23:24:36,207 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5613.823ms 200 application/javascript
+INFO  2022-06-22 23:24:36,208 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-06-22 23:24:36,208 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6817.5829ms 200 text/css
+INFO  2022-06-22 23:24:39,044 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8451.7226ms 200 text/javascript; charset=UTF-8
+INFO  2022-06-22 23:24:50,278 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/v1/swagger.json  
+INFO  2022-06-22 23:24:54,819 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4540.0773ms 200 application/json;charset=utf-8
+INFO  2022-06-23 00:26:04,859 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-23 00:26:05,773 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-06-23 00:26:05,773 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2022-06-23 00:26:05,878 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 83.434ms 200 
+INFO  2022-06-23 00:26:06,737 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 00:26:07,341 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 00:26:12,806 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 00:26:12,826 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 5475.9423ms
+INFO  2022-06-23 00:26:12,828 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 00:26:12,856 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7085.4749ms 302 
+INFO  2022-06-23 00:26:12,935 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/index.html  
+INFO  2022-06-23 00:26:13,530 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 594.4782ms 200 text/html;charset=utf-8
+INFO  2022-06-23 00:26:13,657 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-06-23 00:26:13,659 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_vs/browserLink  
+INFO  2022-06-23 00:26:13,662 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.1813ms 200 application/javascript; charset=utf-8
+INFO  2022-06-23 00:26:14,452 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 793.2457ms 200 text/javascript; charset=UTF-8
+INFO  2022-06-23 00:26:14,871 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/v1/swagger.json  
+INFO  2022-06-23 00:26:15,298 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 427.3416ms 200 application/json;charset=utf-8
+INFO  2022-06-23 00:30:29,806 [23   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:62114/api/services/app/Cliente/Create application/json 243
+INFO  2022-06-23 00:30:30,153 [23   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-23 00:30:30,246 [23   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[BP.API.Dto.ClienteDto] CreateAsync(BP.API.Dto.CreateClienteDto) on controller BP.API.Service.ClienteAppService (BP.API.Application).
+INFO  2022-06-23 00:30:33,726 [26   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-23 00:30:33,789 [26   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application) in 3528.2479ms
+INFO  2022-06-23 00:30:33,789 [26   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-23 00:30:33,789 [26   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3983.503ms 200 application/json; charset=utf-8
+DEBUG 2022-06-23 01:26:16,417 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 01:26:16,802 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 01:26:17,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,206 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:17,222 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 01:26:18,216 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:26:18,748 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 01:26:18,907 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 01:26:18,921 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 01:26:18,963 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 01:26:20,549 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:26:20,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 01:26:20,746 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 01:26:20,762 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 01:26:20,762 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 01:26:20,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 01:26:20,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 01:26:20,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 01:26:20,764 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 01:26:20,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 01:26:20,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 01:26:20,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 01:26:21,379 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-23 01:26:22,764 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-23 01:26:23,669 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-06-23 01:26:23,669 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2022-06-23 01:26:23,746 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 50.5543ms 200 
+INFO  2022-06-23 01:26:23,940 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:26:24,700 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:26:30,274 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:26:30,291 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 5583.7585ms
+INFO  2022-06-23 01:26:30,293 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:26:30,325 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6658.1423ms 302 
+INFO  2022-06-23 01:26:30,457 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/index.html  
+INFO  2022-06-23 01:26:31,296 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 838.9751ms 200 text/html;charset=utf-8
+INFO  2022-06-23 01:26:31,941 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-06-23 01:26:31,951 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 10.2417ms 200 application/javascript; charset=utf-8
+INFO  2022-06-23 01:26:32,049 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_vs/browserLink  
+INFO  2022-06-23 01:26:33,164 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1115.2231ms 200 text/javascript; charset=UTF-8
+INFO  2022-06-23 01:26:33,698 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/v1/swagger.json  
+INFO  2022-06-23 01:26:34,112 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 401.7865ms 200 application/json;charset=utf-8
+DEBUG 2022-06-23 01:34:23,729 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 01:34:24,499 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 01:34:27,397 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,408 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:27,416 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 01:34:30,567 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:34:31,004 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 01:34:31,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 01:34:31,199 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 01:34:31,220 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 01:34:34,507 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:34:34,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 01:34:34,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 01:34:34,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 01:34:34,881 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 01:34:34,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 01:34:34,882 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 01:34:34,883 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 01:34:34,883 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 01:34:34,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 01:34:34,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 01:34:34,885 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 01:34:36,372 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-23 01:34:38,973 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-23 01:34:38,973 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-23 01:34:38,990 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {7914df4c-d9d2-412c-ae44-233d0d55f807} with creation date 2022-06-23 06:34:38Z, activation date 2022-06-23 06:34:38Z, and expiration date 2022-09-21 06:34:38Z.
+WARN  2022-06-23 01:34:39,200 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {7914df4c-d9d2-412c-ae44-233d0d55f807} may be persisted to storage in unencrypted form.
+INFO  2022-06-23 01:34:39,937 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost/BP.API.Web  0
+INFO  2022-06-23 01:34:40,059 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 119.1602ms 200 
+INFO  2022-06-23 01:39:45,860 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://127.0.0.1:36629/BP.API.WEB/iisintegration  0
+INFO  2022-06-23 01:39:45,864 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.0243ms 202 
+DEBUG 2022-06-23 01:39:45,914 [17   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-23 01:39:45,918 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:39:45,921 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:39:45,921 [17   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-23 01:40:01,645 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 01:40:01,733 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 01:40:02,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,069 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,070 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,071 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,072 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,073 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,074 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,079 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 01:40:02,700 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:40:02,975 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 01:40:03,159 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 01:40:03,174 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 01:40:03,193 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 01:40:03,583 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:40:03,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 01:40:03,710 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 01:40:03,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 01:40:03,723 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 01:40:03,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 01:40:03,724 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 01:40:03,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 01:40:03,725 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 01:40:03,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 01:40:03,726 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 01:40:03,727 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 01:40:04,341 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-23 01:40:04,914 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-23 01:40:04,914 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-23 01:40:04,953 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {24dd008a-2599-4425-a55b-087f2cf7d5ab} with creation date 2022-06-23 06:40:04Z, activation date 2022-06-23 06:40:04Z, and expiration date 2022-09-21 06:40:04Z.
+WARN  2022-06-23 01:40:04,973 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {24dd008a-2599-4425-a55b-087f2cf7d5ab} may be persisted to storage in unencrypted form.
+INFO  2022-06-23 01:40:05,546 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:40:05,744 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:40:05,970 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:40:10,400 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:40:10,411 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 4434.2798ms
+INFO  2022-06-23 01:40:10,412 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:40:10,426 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4881.8288ms 302 
+INFO  2022-06-23 01:40:10,453 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:40:10,455 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:40:10,464 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:40:10,758 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:40:10,759 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 294.8752ms
+INFO  2022-06-23 01:40:10,759 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:40:10,760 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 306.8141ms 302 
+DEBUG 2022-06-23 01:44:17,499 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 01:44:17,611 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 01:44:17,795 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:17,831 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 01:44:18,685 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:44:18,891 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 01:44:19,126 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 01:44:19,132 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 01:44:19,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 01:44:19,616 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:44:19,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 01:44:19,744 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 01:44:19,759 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 01:44:19,759 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 01:44:19,759 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 01:44:19,760 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 01:44:19,761 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 01:44:19,762 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 01:44:19,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 01:44:19,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 01:44:19,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 01:44:20,353 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-23 01:44:20,905 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-23 01:44:20,905 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-23 01:44:20,920 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {c3196c01-2ab6-488d-aeaf-7515609f9dfc} with creation date 2022-06-23 06:44:20Z, activation date 2022-06-23 06:44:20Z, and expiration date 2022-09-21 06:44:20Z.
+WARN  2022-06-23 01:44:20,937 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {c3196c01-2ab6-488d-aeaf-7515609f9dfc} may be persisted to storage in unencrypted form.
+INFO  2022-06-23 01:44:21,331 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:44:21,520 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:21,694 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:44:25,297 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:44:25,308 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 3605.4755ms
+INFO  2022-06-23 01:44:25,309 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:25,330 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3999.1794ms 302 
+INFO  2022-06-23 01:44:25,393 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:44:25,396 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:25,403 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:44:25,558 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:44:25,559 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 155.9159ms
+INFO  2022-06-23 01:44:25,560 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:25,561 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 168.6327ms 302 
+INFO  2022-06-23 01:44:35,763 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:44:35,767 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:35,782 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:44:36,061 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:44:36,062 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 278.8103ms
+INFO  2022-06-23 01:44:36,062 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:44:36,063 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 300.1014ms 302 
+INFO  2022-06-23 01:46:57,791 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/Views/Home/Index.cshtml  
+INFO  2022-06-23 01:46:57,985 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 193.6048ms 404 
+DEBUG 2022-06-23 01:58:44,121 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 01:58:44,162 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 01:58:44,275 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,279 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,280 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,281 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,282 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,283 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:44,288 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 01:58:44,926 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 01:58:45,525 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 01:58:45,762 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 01:58:45,766 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 01:58:45,778 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 01:58:46,153 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 01:58:46,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 01:58:46,247 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 01:58:46,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 01:58:46,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 01:58:46,261 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 01:58:46,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 01:58:46,262 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 01:58:46,264 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 01:58:46,264 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 01:58:46,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 01:58:46,265 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 01:58:46,699 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-23 01:58:47,070 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-23 01:58:47,070 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-23 01:58:47,086 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {f17f1027-8e15-422a-97d8-c32399921841} with creation date 2022-06-23 06:58:47Z, activation date 2022-06-23 06:58:47Z, and expiration date 2022-09-21 06:58:47Z.
+WARN  2022-06-23 01:58:47,106 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {f17f1027-8e15-422a-97d8-c32399921841} may be persisted to storage in unencrypted form.
+INFO  2022-06-23 01:58:47,369 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 01:58:47,494 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:58:47,651 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 01:58:50,468 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 01:58:50,475 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 2819.3903ms
+INFO  2022-06-23 01:58:50,476 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 01:58:50,488 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3120.6596ms 302 
+INFO  2022-06-23 01:59:08,553 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/  
+INFO  2022-06-23 01:59:08,615 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 62.1604ms 301 
+INFO  2022-06-23 01:59:08,651 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/index.html  
+INFO  2022-06-23 01:59:08,716 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.4024ms 200 text/html;charset=utf-8
+INFO  2022-06-23 01:59:08,823 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/swagger-ui.css  
+INFO  2022-06-23 01:59:08,823 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/swagger-ui-bundle.js  
+INFO  2022-06-23 01:59:08,845 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/swagger-ui-standalone-preset.js  
+INFO  2022-06-23 01:59:08,854 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-06-23 01:59:08,854 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-06-23 01:59:08,855 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-06-23 01:59:08,856 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.336ms 200 application/javascript
+INFO  2022-06-23 01:59:08,857 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33.5869ms 200 text/css
+INFO  2022-06-23 01:59:08,857 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 11.4906ms 200 application/javascript
+INFO  2022-06-23 01:59:09,847 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/favicon-32x32.png  
+INFO  2022-06-23 01:59:09,858 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-06-23 01:59:09,859 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 12.5748ms 200 image/png
+INFO  2022-06-23 01:59:33,528 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/swagger/v1/swagger.json  
+INFO  2022-06-23 01:59:33,630 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 102.7731ms 404 
+INFO  2022-06-23 01:59:43,652 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/swagger/  
+INFO  2022-06-23 01:59:43,670 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 17.849ms 404 
+INFO  2022-06-23 01:59:49,706 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/index.html  
+INFO  2022-06-23 01:59:49,712 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5.8539ms 200 text/html;charset=utf-8
+DEBUG 2022-06-23 02:06:34,330 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 02:06:34,389 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 02:06:34,521 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,524 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,525 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,526 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,527 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,528 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:34,534 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 02:06:35,079 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 02:06:35,433 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 02:06:35,652 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 02:06:35,794 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 02:06:35,882 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 02:06:36,440 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 02:06:36,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 02:06:36,543 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 02:06:36,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 02:06:36,557 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 02:06:36,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 02:06:36,558 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 02:06:36,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 02:06:36,559 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 02:06:36,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 02:06:36,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 02:06:36,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 02:06:37,096 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-23 02:06:37,571 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-23 02:06:37,571 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-23 02:06:37,592 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {52239611-6bf4-46c6-bd5b-865420e7361f} with creation date 2022-06-23 07:06:37Z, activation date 2022-06-23 07:06:37Z, and expiration date 2022-09-21 07:06:37Z.
+WARN  2022-06-23 02:06:37,610 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {52239611-6bf4-46c6-bd5b-865420e7361f} may be persisted to storage in unencrypted form.
+INFO  2022-06-23 02:06:37,880 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api  
+INFO  2022-06-23 02:06:38,005 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 02:06:38,177 [6    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 02:06:41,466 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 02:06:41,474 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 3292.3261ms
+INFO  2022-06-23 02:06:41,475 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 02:06:41,490 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3610.7273ms 302 
+INFO  2022-06-23 02:06:55,171 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/SWAGGER/index.html  
+INFO  2022-06-23 02:06:55,282 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 110.8939ms 200 text/html;charset=utf-8
+INFO  2022-06-23 02:06:55,774 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.Api/swagger/v1/swagger.json  
+INFO  2022-06-23 02:06:56,136 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 362.4601ms 200 application/json;charset=utf-8
+INFO  2022-06-23 02:07:24,768 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost/bp.api/api/services/app/Cliente/Create application/json 243
+INFO  2022-06-23 02:07:24,898 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-23 02:07:24,950 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[BP.API.Dto.ClienteDto] CreateAsync(BP.API.Dto.CreateClienteDto) on controller BP.API.Service.ClienteAppService (BP.API.Application).
+INFO  2022-06-23 02:07:26,076 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-23 02:07:26,124 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application) in 1174.0085ms
+INFO  2022-06-23 02:07:26,124 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-23 02:07:26,125 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1357.4249ms 200 application/json; charset=utf-8
+INFO  2022-06-23 19:34:01,973 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://127.0.0.1:10264/BP.API/iisintegration  0
+INFO  2022-06-23 19:34:01,976 [28   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.7213ms 202 
+DEBUG 2022-06-23 19:34:01,976 [27   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-23 19:34:01,980 [27   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 19:34:01,983 [27   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 19:34:01,983 [27   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-23 23:46:16,263 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 23:46:16,422 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 23:46:16,693 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,696 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,697 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,698 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,699 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,700 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:16,706 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 23:46:17,276 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:46:17,509 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 23:46:17,609 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 23:46:17,613 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 23:46:17,628 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 23:46:18,083 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:46:18,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 23:46:18,218 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 23:46:18,231 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 23:46:18,231 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 23:46:18,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 23:46:18,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 23:46:18,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 23:46:18,233 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 23:46:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 23:46:18,234 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 23:46:18,235 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 23:46:18,852 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-23 23:46:20,208 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2022-06-23 23:49:34,218 [13   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-23 23:49:34,223 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:49:34,225 [13   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:49:34,225 [13   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-23 23:50:16,713 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-23 23:50:16,812 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-23 23:50:17,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,222 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,226 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,227 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:17,278 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-23 23:50:18,250 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-23 23:50:18,822 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-23 23:50:19,055 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-23 23:50:19,061 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-23 23:50:19,089 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-23 23:50:19,734 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:50:19,945 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-23 23:50:19,946 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-23 23:50:19,969 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-23 23:50:19,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-23 23:50:19,970 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-23 23:50:19,971 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-23 23:50:19,972 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-23 23:50:20,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-23 23:50:20,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-23 23:50:20,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-23 23:50:20,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-23 23:50:20,774 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-23 23:50:21,576 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-23 23:50:34,358 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-06-23 23:50:34,621 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 23:50:34,887 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-23 23:50:38,631 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-23 23:50:38,639 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 3746.7081ms
+INFO  2022-06-23 23:50:38,640 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-23 23:50:38,682 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4326.0158ms 302 
+INFO  2022-06-23 23:50:38,762 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger  
+INFO  2022-06-23 23:50:38,880 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 118.2809ms 301 
+INFO  2022-06-23 23:50:38,966 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/index.html  
+INFO  2022-06-23 23:50:39,054 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 88.4415ms 200 text/html;charset=utf-8
+INFO  2022-06-23 23:50:39,992 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/v1/swagger.json  
+INFO  2022-06-23 23:50:40,402 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/favicon-32x32.png  
+INFO  2022-06-23 23:50:40,443 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 450.4191ms 200 application/json;charset=utf-8
+INFO  2022-06-23 23:50:40,606 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-06-23 23:50:40,606 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.9328ms 200 image/png
+DEBUG 2022-06-23 23:51:31,988 [8    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-23 23:51:31,991 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:51:31,993 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-23 23:51:31,993 [8    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-24 03:15:53,549 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 03:15:55,167 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 03:15:59,621 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,627 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,628 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,630 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,632 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,633 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:15:59,639 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 03:16:03,347 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 03:16:04,380 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 03:16:04,757 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 03:16:04,763 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 03:16:04,859 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 03:16:10,980 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 03:16:12,996 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 03:16:12,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 03:16:13,075 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 03:16:13,076 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 03:16:13,077 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 03:16:13,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 03:16:13,078 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 03:16:13,079 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 03:16:13,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 03:16:13,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 03:16:13,081 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 03:16:20,260 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-24 03:16:33,519 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-24 03:16:38,359 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost/BP.API.Web  0
+INFO  2022-06-24 03:16:39,342 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 867.9073ms 200 
+DEBUG 2022-06-24 09:56:52,242 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 09:56:52,776 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 09:56:54,321 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,325 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:54,328 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 09:56:56,176 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 09:56:57,008 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 09:56:57,315 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 09:56:57,318 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 09:56:57,330 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 09:56:58,397 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 09:56:58,711 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 09:56:58,712 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 09:56:58,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 09:56:58,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 09:56:58,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 09:56:58,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 09:56:58,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 09:56:58,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 09:56:58,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 09:56:58,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 09:56:58,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 09:56:59,610 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-24 09:57:02,340 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Usuario\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-24 09:57:04,301 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost:62114/  0
+INFO  2022-06-24 09:57:04,535 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 234.1204ms 200 
+INFO  2022-06-24 09:59:21,664 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/  
+INFO  2022-06-24 09:59:22,040 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 09:59:22,450 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 09:59:27,251 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 09:59:27,257 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 4803.3951ms
+INFO  2022-06-24 09:59:27,257 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 09:59:27,348 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5684.0133ms 302 
+INFO  2022-06-24 09:59:27,392 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger  
+INFO  2022-06-24 09:59:27,475 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 82.8944ms 301 
+INFO  2022-06-24 09:59:27,742 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/index.html  
+INFO  2022-06-24 09:59:28,505 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 762.536ms 200 text/html;charset=utf-8
+INFO  2022-06-24 09:59:28,797 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui-bundle.js  
+INFO  2022-06-24 09:59:28,799 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-06-24 09:59:28,803 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/swagger-ui.css  
+INFO  2022-06-24 09:59:28,891 [17   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-06-24 09:59:28,894 [17   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 94.9198ms 200 application/javascript
+INFO  2022-06-24 09:59:28,895 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-06-24 09:59:28,896 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 98.358ms 200 application/javascript
+INFO  2022-06-24 09:59:28,975 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-06-24 09:59:28,978 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 175.414ms 200 text/css
+INFO  2022-06-24 09:59:29,082 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_framework/aspnetcore-browser-refresh.js  
+INFO  2022-06-24 09:59:29,086 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 3.915ms 200 application/javascript; charset=utf-8
+INFO  2022-06-24 09:59:29,211 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/_vs/browserLink  
+INFO  2022-06-24 09:59:29,609 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 398.074ms 200 text/javascript; charset=UTF-8
+INFO  2022-06-24 09:59:30,165 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/v1/swagger.json  
+INFO  2022-06-24 09:59:30,376 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:62114/swagger/favicon-32x32.png  
+INFO  2022-06-24 09:59:30,380 [5    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-06-24 09:59:30,381 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4.5975ms 200 image/png
+INFO  2022-06-24 09:59:30,527 [14   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 362.4507ms 200 application/json;charset=utf-8
+DEBUG 2022-06-24 10:00:47,865 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 10:00:48,166 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 10:00:48,961 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,968 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,969 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:48,972 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 10:00:49,755 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:00:50,106 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 10:00:50,266 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 10:00:50,270 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 10:00:50,292 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 10:00:52,431 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 10:00:52,645 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 10:00:52,645 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 10:00:52,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 10:00:52,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 10:00:52,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 10:00:52,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 10:00:52,657 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 10:00:52,658 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 10:00:52,658 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 10:00:52,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 10:00:52,659 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 10:00:53,393 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-24 10:00:54,704 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-24 10:00:55,248 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 DEBUG http://localhost/BP.API.Web  0
+INFO  2022-06-24 10:00:55,343 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.2828ms 200 
+DEBUG 2022-06-24 10:10:00,097 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 10:10:00,130 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 10:10:00,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,212 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,213 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,214 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,219 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 10:10:00,501 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:10:00,676 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 10:10:00,780 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 10:10:00,783 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 10:10:00,791 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 10:10:01,031 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 10:10:01,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 10:10:01,099 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 10:10:01,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 10:10:01,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 10:10:01,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 10:10:01,108 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 10:10:01,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 10:10:01,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 10:10:01,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 10:10:01,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 10:10:01,109 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 10:10:01,394 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-24 10:10:01,687 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-24 10:10:01,905 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web  
+INFO  2022-06-24 10:10:01,972 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:10:02,063 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 10:10:03,795 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 10:10:03,799 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 1733.8304ms
+INFO  2022-06-24 10:10:03,800 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:10:03,810 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1905.4545ms 302 
+INFO  2022-06-24 10:10:31,742 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web  
+INFO  2022-06-24 10:10:31,747 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:10:31,755 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 10:10:32,086 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 10:10:32,086 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 331.2485ms
+INFO  2022-06-24 10:10:32,087 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:10:32,087 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 346.0437ms 302 
+INFO  2022-06-24 10:11:19,779 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web  
+INFO  2022-06-24 10:11:19,792 [12   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:11:19,890 [12   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 10:11:20,071 [15   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 10:11:20,072 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 181.7217ms
+INFO  2022-06-24 10:11:20,072 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:11:20,073 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 294.0351ms 302 
+INFO  2022-06-24 10:12:49,479 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://127.0.0.1:38289/BP.API.WEB/iisintegration  0
+INFO  2022-06-24 10:12:49,481 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.0309ms 202 
+DEBUG 2022-06-24 10:12:49,482 [20   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-24 10:12:49,484 [20   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 10:12:49,485 [20   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 10:12:49,485 [20   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2022-06-24 10:13:01,672 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 10:13:01,695 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 10:13:01,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:01,778 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 10:13:02,036 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 10:13:02,208 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 10:13:02,310 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 10:13:02,313 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 10:13:02,324 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 10:13:02,509 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 10:13:02,563 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 10:13:02,564 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 10:13:02,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 10:13:02,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 10:13:02,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 10:13:02,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 10:13:02,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 10:13:02,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 10:13:02,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 10:13:02,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 10:13:02,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 10:13:02,845 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+INFO  2022-06-24 10:13:03,134 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3006700770-424185619-1745488364-794895919-4004696415\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2022-06-24 10:13:03,546 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web  
+INFO  2022-06-24 10:13:03,611 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:13:03,691 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 10:13:05,466 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 10:13:05,472 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 1777.443ms
+INFO  2022-06-24 10:13:05,472 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:13:05,480 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1934.257ms 302 
+INFO  2022-06-24 10:14:09,691 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web  
+INFO  2022-06-24 10:14:09,696 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:14:09,702 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Index() on controller BP.API.Web.Controllers.HomeController (BP.API.Web).
+INFO  2022-06-24 10:14:09,959 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2022-06-24 10:14:09,960 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Web.Controllers.HomeController.Index (BP.API.Web) in 257.151ms
+INFO  2022-06-24 10:14:09,960 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Web.Controllers.HomeController.Index (BP.API.Web)'
+INFO  2022-06-24 10:14:09,961 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 270.1415ms 302 
+DEBUG 2022-06-24 11:03:40,011 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 11:03:40,038 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 11:03:40,115 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,117 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,118 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,119 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,123 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 11:03:40,432 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:03:40,582 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 11:03:40,690 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 11:03:40,699 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 11:03:40,709 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 11:03:40,925 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 11:03:40,990 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 11:03:40,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 11:03:41,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 11:03:41,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 11:03:41,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 11:03:41,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 11:03:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 11:03:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 11:03:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 11:03:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 11:03:41,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 11:03:41,572 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-24 11:03:41,872 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-24 11:03:41,872 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-24 11:03:41,883 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {dc891296-81d6-47bf-a375-7ce153934524} with creation date 2022-06-24 16:03:41Z, activation date 2022-06-24 16:03:41Z, and expiration date 2022-09-22 16:03:41Z.
+WARN  2022-06-24 11:03:41,898 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {dc891296-81d6-47bf-a375-7ce153934524} may be persisted to storage in unencrypted form.
+INFO  2022-06-24 11:03:42,176 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost/bp.api.web/api/services/app/Cliente/Create application/json 243
+INFO  2022-06-24 11:03:42,461 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-24 11:03:42,681 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "Cliente"}. Executing controller action with signature System.Threading.Tasks.Task`1[BP.API.Dto.ClienteDto] CreateAsync(BP.API.Dto.CreateClienteDto) on controller BP.API.Service.ClienteAppService (BP.API.Application).
+INFO  2022-06-24 11:03:46,715 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2022-06-24 11:03:46,777 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application) in 4073.0429ms
+INFO  2022-06-24 11:03:46,778 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'BP.API.Service.ClienteAppService.CreateAsync (BP.API.Application)'
+INFO  2022-06-24 11:03:46,782 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 4609.6955ms 200 application/json; charset=utf-8
+DEBUG 2022-06-24 11:04:00,671 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2022-06-24 11:04:00,697 [1    ] Abp.Modules.AbpModuleManager             - Found 10 ABP modules in total.
+DEBUG 2022-06-24 11:04:00,767 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.Web.Startup.CorporateWebModule, BP.API.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateApplicationModule, BP.API.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,771 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.CorporateCoreModule, BP.ApplicationProgramming.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,772 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,773 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BP.API.EntityFrameworkCore.CorporateEntityFrameworkCoreModule, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,774 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,775 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:00,780 [1    ] Abp.Modules.AbpModuleManager             - 10 modules loaded.
+DEBUG 2022-06-24 11:04:01,028 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: BP.API.EntityFrameworkCore.CorporateDbContext, BP.API.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2022-06-24 11:04:01,174 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2022-06-24 11:04:01,282 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2022-06-24 11:04:01,286 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Corporate
+DEBUG 2022-06-24 11:04:01,293 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2022-06-24 11:04:01,489 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 11:04:01,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2022-06-24 11:04:01,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.CreateMovimientosDto
+DEBUG 2022-06-24 11:04:01,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.InputMovimientosDto
+DEBUG 2022-06-24 11:04:01,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.MovimientosDto
+DEBUG 2022-06-24 11:04:01,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.AppService.Movimiento.Dto.ResultMovimientosDto
+DEBUG 2022-06-24 11:04:01,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.AuditLogDto
+DEBUG 2022-06-24 11:04:01,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.ClienteDto
+DEBUG 2022-06-24 11:04:01,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateClienteDto
+DEBUG 2022-06-24 11:04:01,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreatePersonaDto
+DEBUG 2022-06-24 11:04:01,572 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CreateCuentaDto
+DEBUG 2022-06-24 11:04:01,573 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BP.API.Dto.CuentaDto
+INFO  2022-06-24 11:04:01,898 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,tr
+WARN  2022-06-24 11:04:02,197 [1    ] tion.Repositories.EphemeralXmlRepository - Using an in-memory repository. Keys will not be persisted to storage.
+WARN  2022-06-24 11:04:02,197 [1    ] taProtection.KeyManagement.XmlKeyManager - Neither user profile nor HKLM registry available. Using an ephemeral key repository. Protected data will be unavailable when application exits.
+INFO  2022-06-24 11:04:02,211 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {df9ea5e3-f0cf-41f4-b754-ce4fde70afad} with creation date 2022-06-24 16:04:02Z, activation date 2022-06-24 16:04:02Z, and expiration date 2022-09-22 16:04:02Z.
+WARN  2022-06-24 11:04:02,224 [1    ] taProtection.KeyManagement.XmlKeyManager - No XML encryptor configured. Key {df9ea5e3-f0cf-41f4-b754-ce4fde70afad} may be persisted to storage in unencrypted form.
+INFO  2022-06-24 11:04:02,494 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/index.html  
+INFO  2022-06-24 11:04:02,728 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 233.7225ms 200 text/html;charset=utf-8
+INFO  2022-06-24 11:04:02,857 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/swagger-ui-bundle.js  
+INFO  2022-06-24 11:04:02,861 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/swagger-ui-standalone-preset.js  
+INFO  2022-06-24 11:04:02,868 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/swagger-ui.css  
+INFO  2022-06-24 11:04:02,891 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2022-06-24 11:04:02,891 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2022-06-24 11:04:02,897 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 28.6335ms 200 text/css
+INFO  2022-06-24 11:04:02,897 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.849ms 200 application/javascript
+INFO  2022-06-24 11:04:02,900 [8    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2022-06-24 11:04:02,901 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 43.9747ms 200 application/javascript
+INFO  2022-06-24 11:04:03,427 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/v1/swagger.json  
+INFO  2022-06-24 11:04:03,484 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost/BP.API.Web/swagger/favicon-32x32.png  
+INFO  2022-06-24 11:04:03,486 [12   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2022-06-24 11:04:03,486 [12   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1.9052ms 200 image/png
+INFO  2022-06-24 11:04:03,581 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 153.4299ms 200 application/json;charset=utf-8
+INFO  2022-06-24 11:24:59,294 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://127.0.0.1:7019/BP.API.WEB/iisintegration  0
+INFO  2022-06-24 11:24:59,296 [48   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2.0026ms 202 
+DEBUG 2022-06-24 11:24:59,298 [49   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2022-06-24 11:24:59,300 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 11:24:59,301 [49   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2022-06-24 11:24:59,301 [49   ] Abp.Modules.AbpModuleManager             - Shutting down completed.

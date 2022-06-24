@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Proyecto</_PublishTargetUrl>
+    <History>False|2022-06-23T06:24:47.1632402Z;False|2022-06-23T01:18:00.2395314-05:00;False|2022-06-23T01:15:01.1285846-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Data Source=HOME_NORTH\MSSQLSERVER_2008%3bUser ID=sa%3bPassword=Pichincha1%3bDatabase=DBPichincha%3bPersist Security Info=false%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
